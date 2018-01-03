@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Administrador</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="common.css" rel='stylesheet' type='text/css' />
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type='text/css' />
+</head>
+
+<body>
+	<!-- Banner -->
+<nav class="navbar navbar-inverse">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<a class="navbar-brand" href="#">BidOnline</a>
+		</div>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+		</ul>
+	</div>
+</nav>
+			
+<div class="container container_form">
+	<div class="row">
+		<!-- Primera columna -->
+		<div class="col-md-4">
+
+			<div id="sidebar" class="well sidebar-nav">
+
+				<h5><i class="glyphicon glyphicon-home"></i>
+					<small><b>MANAGEMENT</b></small>
+				</h5>
+
+				<ul class="nav nav-pills nav-stacked">
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Gestión de Billetes
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#insertarBilletes" data-toggle="tab">Insertar</a></li>
+							<li><a href="#borrarBilletes" data-toggle="tab">Borrar</a></li>
+							<li><a href="#modificarBilletes" data-toggle="tab">Modificar</a></li> 
+							<li><a href="#consultarBilletes" data-toggle="tab">Consultar</a></li> 
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Gestión de Monedas
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#insertarMonedas" data-toggle="tab">Insertar</a></li>
+							<li><a href="#borrarMonedas" data-toggle="tab">Borrar</a></li>
+							<li><a href="#modificarMonedas" data-toggle="tab">Modificar</a></li> 
+							<li><a href="#consultarMonedas" data-toggle="tab">Consultar</a></li> 
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Gestión de Subastas
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#insertarSubastas" data-toggle="tab">Insertar</a></li>
+							<li><a href="#borrarSubastas" data-toggle="tab">Borrar</a></li>
+							<li><a href="#modificarSubastas" data-toggle="tab">Modificar</a></li> 
+							<li><a href="#consultarSubastas" data-toggle="tab">Consultar</a></li>
+						</ul>
+					</li>
+
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">Gestión de Informes
+						<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#insertarInformes" data-toggle="tab">Insertar</a></li>
+							<li><a href="#borrarInformes" data-toggle="tab">Borrar</a></li>
+							<li><a href="#modificarInformes" data-toggle="tab">Modificar</a></li> 
+							<li><a href="#consultarInformes" data-toggle="tab">Consultar</a></li> 
+						</ul>
+					</li>
+				</ul>
+
+				<h5><i class="glyphicon glyphicon-user"></i>
+					<small><b>USERS</b></small>
+				</h5>
+				
+				<ul class="nav nav-pills nav-stacked">
+					<li><a href="#">List</a></li>
+					<li><a href="#">Manage</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Segunda columna -->
+		<div class="col-md-8">
+			<div id="sidebar" class="well sidebar-nav">
+			<!-- BILLETES -->
+			<div class="tab-content">
+				<div role="tabpanel" class="tab-pane" id="insertarBilletes">
+					<p>
+						Insertar Billetes
+					</p>
+				</div>
+		
+				<div role="tabpanel" class="tab-pane" id="borrarBilletes">
+					<p>
+						Borrar Billetes
+					</p>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="modificarBilletes">
+					<p>
+						Modificar Billetes
+					</p>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="consultarBilletes">
+					<p>
+						Consultar Billetes
+					</p>
+				</div>
+
+				<!-- MONEDAS -->
+				<div role="tabpanel" class="tab-pane" id="insertarMonedas">
+					<p>
+						Insertar Monedas
+					</p>
+				</div>
+			
+				<div role="tabpanel" class="tab-pane" id="borrarMonedas">
+					<p>
+						Borrar Monedas
+					</p>
+				</div>
+			
+				<div role="tabpanel" class="tab-pane" id="modificarMonedas">
+					<p>
+						Modificar Monedas
+					</p>
+				</div>
+				
+				<div role="tabpanel" class="tab-pane" id="consultarMonedas">
+					<p>
+						Consultar Monedas
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>   
+
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+
+</html>
